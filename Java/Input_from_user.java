@@ -10,5 +10,6 @@ public class Input_from_user
        System.out.println(name);
        // nextInt() -> to take integer type input
        // nextFloat() -> to take float type input 
+       sc.close();
     }
 }

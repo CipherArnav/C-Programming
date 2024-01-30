@@ -8,10 +8,9 @@ public class Sum_of_two_num
    int a = sc.nextInt();
    int b = sc.nextInt();
    int sum = a+b;
-   System.out.print("Your sum is:");
-   System.out.print(sum);
-
-
+   System.out.print(" Your sum is: " +sum);
+   // ("sum") will print on screen sum so be careful.
+   sc.close();
 }
 
 }
